@@ -7,7 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024, YuAn</copyright>
+    <lastBuildDate>Mon, 05 Feb 2024 18:20:04 +0800</lastBuildDate>
     <atom:link href="https://yuansec.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE 2024 23897 Jenkins CLI任意文件读取漏洞</title>
+      <link>https://yuansec.github.io/post/cve-2024-23897-jenkins-cli%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E/</link>
+      <pubDate>Mon, 05 Feb 2024 18:20:04 +0800</pubDate>
+      <guid>https://yuansec.github.io/post/cve-2024-23897-jenkins-cli%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E/</guid>
+      <description>一、组件简介 Jenkins是一个开源的自动化服务器，用于实现持续集成和持续交付（CI/CD）。它提供了一个可扩展的平台，用于构建、测试和部署软件项目。&#xA;Jenkins的主要功能包括：&#xA;自动化构建：Jenkins可以根据预定义的构建脚本或配置文件自动构建项目。它支持各种编程语言和构建工具，如Java、Python、Maven和Gradle。 持续集成：Jenkins可以与版本控制系统（如Git、Subversion）集成，以便在代码提交时自动触发构建和测试过程。它可以检测代码变更并执行相应的构建任务。 测试和报告：Jenkins可以与各种测试框架和工具集成，如JUnit、Selenium和JMeter。它可以自动运行测试套件，并生成测试报告和覆盖率报告。 部署和交付：Jenkins可以与部署工具和云平台集成，如Docker、Kubernetes和AWS。它可以自动化部署应用程序到不同的环境，并支持持续交付流程。 插件生态系统：Jenkins拥有一个丰富的插件生态系统，提供了各种功能扩展和集成选项。用户可以根据自己的需求选择和安装适合的插件。 Jenkins的灵活性和可扩展性使其成为持续集成和持续交付的首选工具之一。它被广泛应用于软件开发和DevOps团队中，帮助实现自动化构建、测试和部署的流程，提高软件交付的质量和效率。&#xA;二、漏洞详情 1. 介绍 Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an &amp;lsquo;@&amp;rsquo; character followed by a file path in an argument with the file&amp;rsquo;s contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.&#xA;Jenkins 2.441 及更早版本、LTS 2.426.2 及更早版本不会禁用其 CLI 命令解析器的一项功能，可以将@参数中后跟文件路径的字符替换为文件内容 ( expandAtFiles)，从而允许未经身份验证的攻击者读取Jenkins 控制器文件系统。</description>
+    </item>
     <item>
       <title></title>
       <link>https://yuansec.github.io/archives/</link>

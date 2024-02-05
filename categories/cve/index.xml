@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on YuAn SEC</title>
-    <link>https://yuansec.github.io/post/</link>
-    <description>Recent content in Posts on YuAn SEC</description>
+    <title>cve on YuAn SEC</title>
+    <link>https://yuansec.github.io/categories/cve/</link>
+    <description>Recent content in cve on YuAn SEC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024, YuAn</copyright>
     <lastBuildDate>Mon, 05 Feb 2024 18:20:04 +0800</lastBuildDate>
-    <atom:link href="https://yuansec.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuansec.github.io/categories/cve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CVE 2024 23897 Jenkins CLI任意文件读取漏洞</title>
       <link>https://yuansec.github.io/post/cve-2024-23897-jenkins-cli%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E/</link>
