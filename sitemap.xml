@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yuansec.github.io/</loc>
-    <lastmod>2024-02-05T18:20:04+08:00</lastmod>
+    <lastmod>2024-02-07T11:28:06+08:00</lastmod>
+  </url><url>
+    <loc>https://yuansec.github.io/post/cve-2024-24762_fastapi_content-type_header_redos/</loc>
+    <lastmod>2024-02-07T11:28:06+08:00</lastmod>
+  </url><url>
+    <loc>https://yuansec.github.io/post/</loc>
+    <lastmod>2024-02-07T11:28:06+08:00</lastmod>
   </url><url>
     <loc>https://yuansec.github.io/categories/</loc>
     <lastmod>2024-02-05T18:20:04+08:00</lastmod>
@@ -12,9 +18,6 @@
     <lastmod>2024-02-05T18:20:04+08:00</lastmod>
   </url><url>
     <loc>https://yuansec.github.io/post/cve-2024-23897-jenkins-cli%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E/</loc>
-    <lastmod>2024-02-05T18:20:04+08:00</lastmod>
-  </url><url>
-    <loc>https://yuansec.github.io/post/</loc>
     <lastmod>2024-02-05T18:20:04+08:00</lastmod>
   </url><url>
     <loc>https://yuansec.github.io/archives/</loc>

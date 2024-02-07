@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024, YuAn</copyright>
-    <lastBuildDate>Mon, 05 Feb 2024 18:20:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 Feb 2024 11:28:06 +0800</lastBuildDate>
     <atom:link href="https://yuansec.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE 2024 24762_FastAPI_Content Type_Header_ReDoS</title>
+      <link>https://yuansec.github.io/post/cve-2024-24762_fastapi_content-type_header_redos/</link>
+      <pubDate>Wed, 07 Feb 2024 11:28:06 +0800</pubDate>
+      <guid>https://yuansec.github.io/post/cve-2024-24762_fastapi_content-type_header_redos/</guid>
+      <description>一、组件简介 https://fastapi.tiangolo.com/zh/&#xA;FastAPI 是一个用于构建 API 的现代、快速（高性能）的 web 框架，使用 Python 3.8+ 并基于标准的 Python 类型提示。&#xA;二、漏洞详情 1. 介绍 FastAPI is a web framework for building APIs with Python 3.8+ based on standard Python type hints. When using form data, python-multipart uses a Regular Expression to parse the HTTP Content-Type header, including options. An attacker could send a custom-made Content-Type option that is very difficult for the RegEx to process, consuming CPU resources and stalling indefinitely (minutes or more) while holding the main event loop.</description>
+    </item>
     <item>
       <title>CVE 2024 23897 Jenkins CLI任意文件读取漏洞</title>
       <link>https://yuansec.github.io/post/cve-2024-23897-jenkins-cli%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E/</link>
